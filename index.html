@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>LIVE NEWS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container nav-container flex">
+            <a href="#" class="company-logo">
+                <img src="assets/Newslogo bg.png" alt="company logo">
+            </a>
+        </div>
+    </nav>
+
+
+    <main>
+        <!-- <div class="container" id="lang-page-container">
+            <div class="lang-page flex">
+                <div class="select-lang flex">
+                    <a href="#" class="lang flex" id="bengali-channel">বাংলা</a>
+                    <a href="#" class="lang flex" id="hindi-channel">हिंदी</a>
+                    <a href="#" class="lang flex" id="english-channel">English</a>
+                </div>
+            </div>
+        </div> -->
+
+
+
+        <div class="container channel-container" id="beng-channel-container">
+            <div class="channel-page flex">
+                <a href="https://zeenews.india.com/bengali/live-tv" class="channel"><img
+                        src="https://bengali.cdn.zeenews.com/bengali/desktop/logo/24Ghanta_nav.png"
+                        alt="channel image"></a>
+                <a href="https://bengali.abplive.com/live-tv" class="channel"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/ABP_Ananda_logo.svg/130px-ABP_Ananda_logo.svg.png"
+                        alt="channel image"></a>
+                <a href="https://tv9bangla.com/live-tv" class="channel"><img
+                        src="data:image/png;base64,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"
+                        alt="channel image"></a>
+                <a href="https://bengali.news18.com/live-tv/" class="channel"><img
+                        src="https://images.news18.com/dlxczavtqcctuei/news18/static/images/news18bengali-desktop.png"
+                        alt="channel image"></a>
+                <a href="https://bangla.republicworld.com/livetv.html" class="channel"><img
+                        src="https://img.republicworld.com//logo/bangla/republic-logo-bangla.svg"
+                        alt="channel image"></a>
+            </div>
+        </div>
+
+
+        <div class="container channel-container display" id="hind-channel-container">
+            <div class="channel-page flex">
+                <a href="https://zeenews.india.com/hindi/live-tv" class="channel"><img
+                        src="https://english.cdn.zeenews.com/static/public/zeenews_Hindi_logo3.jpg"
+                        alt="channel image"></a>
+                <a href="https://www.abplive.com/live-tv" class="channel"><img
+                        src="https://static.abplive.com/wp-content/uploads/sites/2/2020/12/18161030/ABP-News.jpg"
+                        alt="channel image"></a>
+                <a href="https://www.aajtak.in/livetv" class="channel"><img
+                        src="https://akm-img-a-in.tosshub.com/aajtak/resource/img/aajtak-logo-153X116-v2.png"
+                        alt="channel image"></a>
+                <a href="https://ndtv.in/livetv-ndtvindia" class="channel"><img
+                        src="https://play-lh.googleusercontent.com/SSIY-VL4eEpfz3-fRzs5sAUgWhhfaG3w-WUWu6wyAMWOW5h2qprXwAhTd3hVCodIDlWJ"
+                        alt="channel image"></a>
+                <a href="https://www.cnbctv18.com/awaaz/live-tv/" class="channel"><img
+                        src="https://yt3.googleusercontent.com/ZWBVhVeY1UFL3q-nLo2XSzh1R90DXI0V8PNK125pZFooVwQxS543UdhfcBX_0fThMebyhAfnw20=s900-c-k-c0x00ffffff-no-rj"
+                        alt="channel image"></a>
+            </div>
+        </div>
+
+
+        <div class="container channel-container display" id="eng-channel-container">
+            <div class="channel-page flex">
+                <!-- <a href="https://zeenews.india.com/bengali/live-tv" class="channel"><img
+                        src="https://bengali.cdn.zeenews.com/bengali/desktop/logo/24Ghanta_nav.png"
+                        alt="channel image"></a>
+                <a href="https://bengali.abplive.com/live-tv" class="channel"><img
+                        src="tps://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/ABP_Ananda_logo.svg/130px-ABP_Ananda_logo.svg.png"
+                        alt="channel image"></a>
+                <a href="https://tv9bangla.com/live-tv" class="channel"><img
+                        src="data:image/png;base64,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"
+                        alt="channel image"></a>
+                <a href="https://bengali.news18.com/live-tv/" class="channel"><img
+                        src="https://images.news18.com/dlxczavtqcctuei/news18/static/images/news18bengali-desktop.png"
+                        alt="channel image"></a>
+                <a href="https://bangla.republicworld.com/livetv.html" class="channel"><img
+                        src="https://img.republicworld.com//logo/bangla/republic-logo-bangla.svg"
+                        alt="channel image"></a> -->
+                        <h2>Releasing Soon</h2>
+            </div>
+        </div>
+
+
+
+        <footer>
+            <div class="container lang-bar-container flex">
+                <div class="dropdown">
+                    <button class="dropbtn" id="dropbtn">বাংলা</button>
+                    <div class="dropdown-content">
+                        <a href="#" class="lang flex" id="bengali-channel">বাংলা</a>
+                        <a href="#" class="lang flex" id="hindi-channel">हिंदी</a>
+                        <a href="#" class="lang flex" id="english-channel">English</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
