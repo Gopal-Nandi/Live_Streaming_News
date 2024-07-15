@@ -13,6 +13,10 @@ Welcome to the official repository for our Live News Website! This project aims 
 
 - **Frontend**: HTML, CSS, JavaScript
 
+### Click the link below to view the website
+
+- https://gopal-nandi.github.io/Live_Streaming_News/
+
 ---
 
 Stay updated, stay informed!
